@@ -1,0 +1,35 @@
+<svg width="1200" height="600" viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="chapelHeroTitle">
+  <title id="chapelHeroTitle">Illustration of a meetinghouse chapel with a steeple at sunrise</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7e9c9"/>
+      <stop offset="100%" stop-color="#fbf6ec"/>
+    </linearGradient>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f4efe4"/>
+      <stop offset="100%" stop-color="#e6dcc7"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="600" fill="url(#sky)"/>
+  <circle cx="600" cy="230" r="90" fill="#f6dfa3" opacity="0.7"/>
+  <g stroke="#efd9a0" stroke-width="6" opacity="0.6">
+    <line x1="600" y1="60" x2="600" y2="100"/>
+    <line x1="440" y1="230" x2="480" y2="230"/>
+    <line x1="720" y1="230" x2="760" y2="230"/>
+    <line x1="486" y1="116" x2="512" y2="142"/>
+    <line x1="714" y1="116" x2="688" y2="142"/>
+  </g>
+  <rect x="250" y="360" width="700" height="200" fill="url(#wall)" stroke="#c9bb9c" stroke-width="3"/>
+  <polygon points="250,360 600,230 950,360" fill="#5b4636"/>
+  <rect x="560" y="150" width="80" height="90" fill="#5b4636"/>
+  <polygon points="555,150 600,110 645,150" fill="#453626"/>
+  <rect x="592" y="170" width="16" height="40" fill="#f4efe4"/>
+  <line x1="600" y1="90" x2="600" y2="110" stroke="#453626" stroke-width="4"/>
+  <circle cx="600" cy="86" r="6" fill="#9c7a3c"/>
+  <rect x="565" y="430" width="70" height="130" fill="#453626"/>
+  <rect x="330" y="410" width="60" height="80" rx="4" fill="#cfe3e8" stroke="#5b4636" stroke-width="4"/>
+  <rect x="810" y="410" width="60" height="80" rx="4" fill="#cfe3e8" stroke="#5b4636" stroke-width="4"/>
+  <line x1="360" y1="410" x2="360" y2="490" stroke="#5b4636" stroke-width="3"/>
+  <line x1="840" y1="410" x2="840" y2="490" stroke="#5b4636" stroke-width="3"/>
+  <rect x="0" y="558" width="1200" height="42" fill="#e9dfc7"/>
+</svg>
