@@ -10,7 +10,7 @@ export async function GET(
     return Response.json({ error: "Invalid meeting id" }, { status: 400 });
   }
 
-  const meeting = getMeetingById(Number(id));
+  const meeting = await getMeetingById(Number(id));
 
   if (!meeting) {
     return Response.json({ error: "Meeting not found" }, { status: 404 });
