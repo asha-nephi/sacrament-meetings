@@ -21,4 +21,5 @@ export const MEETING_TYPE_LABELS: Record<string, string> = {
   testimony: "Fast & Testimony Meeting",
   stake: "Stake Conference",
   general: "General Conference",
+  special: "Special Meeting",
 };
